@@ -17,6 +17,7 @@ jobs:
           filename: header.svg
           base: header
           base_indepth: yes
+          repositories_affiliations: owner, collaborator, organization_member
 
       - name: Isometric calendar
         uses: lowlighter/metrics@latest
@@ -35,3 +36,4 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
+          repositories_affiliations: owner, collaborator, organization_member
